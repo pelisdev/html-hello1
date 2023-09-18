@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Feed Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar bg-body">
+            <div class="container-fluid">
+              <a class="navbar-brand"><i class="fa-brands fa-instagram fa-2xl"></i> Instagram</a>
+              <div class="d-flex justify-content-end">
+                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-plus"></i> Crear nuevo Post</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Crear nuevo Post</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <label for="exampleFormControlTextarea1" class="form-label">Descripción:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea><br>
+          <button class="btn btn-light"><i class="fa-solid fa-camera"></i></button>
+          <button class="btn btn-light"><i class="fa-solid fa-location-dot"></i></button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-success">Publicar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                <div class="dropdown" style="margin-left: 10px;">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-gear"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Perfil</a></li>
+                      <li><a class="dropdown-item" href="#">Accesibilidad</a></li>
+                      <li><a class="dropdown-item" href="#">Política de Privacidad</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#" style="color: #ec3232;">Cerrar Sesión</a></li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </nav>
+<br>
+          <div>
+            <nav>
+                <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                  <a class="nav-link active" id="nav-col-tab" data-bs-toggle="tab" href="#nav-col" role="tab" aria-controls="nav-col" aria-selected="true"><i class="fa-solid fa-table-cells"></i> Cuadrícula</a>
+                  <a class="nav-link" id="nav-down-tab" data-bs-toggle="tab" href="#nav-down" role="tab" aria-controls="nav-down" aria-selected="false"><i class="fa-regular fa-images"></i> Vertical</a>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-col" role="tabpanel" aria-labelledby="nav-col-tab">
+                    <br>
+                    <div class="container text-center">
+                        <div class="row align-items-start">
+                            <div class="col-4">
+                                <img src="https://estaticos-cdn.elperiodico.com/clip/dc2b165e-92ff-46ef-b05f-e06b1f997fba_alta-libre-aspect-ratio_default_0.jpg" class="img-fluid rounded" alt="...">
+                              </div>
+                            <div class="col-4">
+                            <img src="https://cnnespanol.cnn.com/wp-content/uploads/2023/04/230413112851-spacex-starship-launchpad-file.webp" class="img-fluid rounded" alt="...">
+                          </div>
+                          <div class="col-4">
+                            <img src="https://imagenes.elpais.com/resizer/k3b_40k2I9FJt-TqEJXdgN4nlZU=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/AJEULRSGMVGQZAZ3WO5OXLKXWQ.jpg" class="img-fluid rounded" alt="...">
+                          </div>
+                        </div><br>
+                        <div class="row align-items-start">
+                            <div class="col-4">
+                                <img src="https://images3.alphacoders.com/750/750313.jpg" class="img-fluid rounded" alt="...">
+                              </div>
+                            <div class="col-4">
+                            <img src="https://w0.peakpx.com/wallpaper/449/474/HD-wallpaper-interstellar-interstellar-ship.jpg" class="img-fluid rounded" alt="...">
+                          </div>
+                          <div class="col-4">
+                            <img src="https://images6.alphacoders.com/131/1313867.png" class="img-fluid rounded" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="nav-down" role="tabpanel" aria-labelledby="nav-down-tab">
+                    <div class="container-sm text-left justify-content-center">
+                        <br>
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="container text-center">
+                                    
+                                    <div class="row">
+                                      <div class="col-10"><p class="text-start fs-3">Elon Musk desconcertado</p></div>
+                                      <div class="col-2"><p class="text-end">15/09</p></div>
+                                    </div>
+                                  </div>
+                            </div>
+                            <img src="https://estaticos-cdn.elperiodico.com/clip/dc2b165e-92ff-46ef-b05f-e06b1f997fba_alta-libre-aspect-ratio_default_0.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <h5 class="card-title">Le gusta a <b>4GeeksAcademy</b>, <b>Elonmusk</b> y <b>1.765.334 más</b></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit ornare, interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                                
+                                <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+                               
+                            </div>
+                        </div><br>
+                        <div class="card">
+                          <div class="card-header">
+                              <div class="container text-center">
+                                  
+                                  <div class="row">
+                                    <div class="col-10"><p class="text-start fs-3">Starship V2 En base de lanzamiento</p></div>
+                                    <div class="col-2"><p class="text-end">16/09</p></div>
+                                  </div>
+                                </div>
+                          </div>
+                          <img src="https://cnnespanol.cnn.com/wp-content/uploads/2023/04/230413112851-spacex-starship-launchpad-file.webp" class="card-img-top" alt="...">
+                          <div class="card-body">
+
+                              <h5 class="card-title">Le gusta a <b>Elonmusk</b> y <b>877.455 más</b></h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit ornare, interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                              
+                              <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+                             
+                          </div>
+                      </div><br>
+                      <div class="card">
+                        <div class="card-header">
+                            <div class="container text-center">
+                                
+                                <div class="row">
+                                  <div class="col-10"><p class="text-start fs-3">Starship mirando al cielo</p></div>
+                                  <div class="col-2"><p class="text-end">5/08</p></div>
+                                </div>
+                              </div>
+                        </div>
+                        <img src="https://imagenes.elpais.com/resizer/k3b_40k2I9FJt-TqEJXdgN4nlZU=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/AJEULRSGMVGQZAZ3WO5OXLKXWQ.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+
+                            <h5 class="card-title">Le gusta a <b>4GeeksAcademy</b>, <b>Elonmusk</b> y <b>65.776.987 más</b></h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit ornare, interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                            
+                            <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+                           
+                        </div>
+                    </div><br>
+                    <div class="card">
+                      <div class="card-header">
+                          <div class="container text-center">
+                              
+                              <div class="row">
+                                <div class="col-10"><p class="text-start fs-3">Elliot Alderson, Mr.Robot</p></div>
+                                <div class="col-2"><p class="text-end">15/09</p></div>
+                              </div>
+                            </div>
+                      </div>
+                      <img src="https://images3.alphacoders.com/750/750313.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+
+                          <h5 class="card-title">Le gusta a <b>Rami Malek</b>, <b>Alvaro</b> y <b>12.432.665 más</b></h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit ornare, interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                          
+                          <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+                         
+                      </div>
+                  </div><br>
+                  <div class="card">
+                    <div class="card-header">
+                        <div class="container text-center">
+                            
+                            <div class="row">
+                              <div class="col-10"><p class="text-start fs-3">Cooper y Murph</p></div>
+                              <div class="col-2"><p class="text-end">15/09</p></div>
+                            </div>
+                          </div>
+                    </div>
+                    <img src="https://w0.peakpx.com/wallpaper/449/474/HD-wallpaper-interstellar-interstellar-ship.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <h5 class="card-title">Le gusta a <b>jessicachastain</b>, <b>officiallymcconaughey</b> y <b>3.115.276 más</b></h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit ornare, interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                        
+                        <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+                       
+                    </div>
+                </div><br>
+                <div class="card">
+                  <div class="card-header">
+                      <div class="container text-center">
+                          
+                          <div class="row">
+                            <div class="col-10"><p class="text-start fs-3">Marty McFly</p></div>
+                            <div class="col-2"><p class="text-end">15/09</p></div>
+                          </div>
+                        </div>
+                  </div>
+                  <img src="https://images6.alphacoders.com/131/1313867.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+
+                      <h5 class="card-title">Le gusta a <b>4GeeksAcademy</b>, <b>Elonmusk</b> y <b>1.765.334 más</b></h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit ornare, interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                      
+                      <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+                     
+                  </div>
+              </div><br>
+                    </div>
+                </div>
+                
+              </div>
+          </div>
+    </div>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted"><i class="fa-brands fa-instagram fa-2xl"></i> © 2023 Instagram</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Feed</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Explorar</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Mi Cuenta</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Información</a></li>
+        </ul>
+      </footer>
+    </div>
+      <script src="https://kit.fontawesome.com/d0eb872e65.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
